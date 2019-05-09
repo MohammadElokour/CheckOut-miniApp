@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "babel": "./node_modules/.bin/babel client --watch --out-dir public --presets @babel/preset-react --source-maps inline",
-    "start": "live-server",
-    "start-server": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",

@@ -34,6 +34,17 @@ class App extends React.Component {
 
 
 class F1 extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+  
+    };
+  }
+  
+  handleEvent (event) {
+    
+  };
+
   render () {
     return (
       <div className='box'>
@@ -62,6 +73,17 @@ class F1 extends React.Component {
 }
 
 class F2 extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+  
+    };
+  }
+  
+  handleEvent (event) {
+    
+  };
+
   render () {
     return (
     <div className='box'>  
@@ -97,6 +119,17 @@ class F2 extends React.Component {
 }
 
 class F3 extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+  
+    };
+  }
+  
+  handleEvent (event) {
+    
+  };
+
   render () {
     return (
       <div className='box'>
